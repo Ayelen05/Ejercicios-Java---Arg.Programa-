@@ -1,0 +1,30 @@
+/*
+Escribir un programa que pida una frase y la muestre toda en mayúsculas y después toda en minúsculas. 
+ */
+package ejercicio_1;
+import java.util.Scanner; // importante tiene q estar en todos los codigos
+/**
+ *
+ * @author ayelen.m
+ */
+public class ejercicio_3 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+       Scanner leer = new Scanner(System.in); // tiene q estar en tdos los cod
+       String frase; //es como definir en caracter
+        System.out.println("Ingrese una frase"); //escribe la frase
+      frase = leer.nextLine(); // lee la frase importante: L en mayus
+      System.out.println(frase.toLowerCase()); //escribe en minuscula
+        System.out.println(frase.toUpperCase()); //escribe en mayus
+        
+        
+
+
+        
+        
+    }
+    
+}
